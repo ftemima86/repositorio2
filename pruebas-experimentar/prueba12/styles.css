@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #0a0;
+    color: #fff;
+}
+
+/* --- HEADER SECTION --- */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(imagenes/centro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+}
+
+.header__item-container {
+    position: inherit;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.header__item-container p {
+    text-wrap: pretty;
+    padding: 0 20px;
+}
+
+.header__img {
+    min-width: 20%;
+    max-width: 40%;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    margin: 20px;
+}
+
+.header__overlay {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0006;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3.6rem;
+    text-wrap: balance;
+}
+
+/* --- NAVBAR SECTION --- */
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 6px 20px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px #0009;
+}
+
+.nav__ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__logo-container{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav__ul-container {
+    flex-grow: 4;
+    text-align: center;
+}
+
+.nav__link {
+    color: #0a0;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 6px;
+    border-radius: 0;
+    transition: background-color .24s, border-radius .2s, outline .2s, outline-offset .2s;
+    margin: 2px;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.nav__link:hover {
+    background-color: #0a03 ;
+    border-radius: 20px;
+    outline: 2px solid #0a07;
+    outline-offset: -8px;
+}
+
+.link--login {
+    background-color: #0a0;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+}
+
+.link--login:hover {
+    background-color: #060;
+}
+
+img[src$="logo.png"] {
+    width: 60px;
+}
+
+/* --- MAIN SECTION --- */
+
+main {
+    max-width: 800px;
+    margin: auto;
+    font-size: 36px;
+    text-wrap: pretty;
+}

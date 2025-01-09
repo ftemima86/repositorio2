@@ -1,0 +1,76 @@
+/* El signo "*" es para aplicar estos estilos a todo las etiquetas */
+*{
+    /* Esto es para poner el relleno del contenido */
+    padding: 0;
+    /* Esto es para poner el margen del contenido */
+    margin: 0;
+}
+
+/* Esto aplica a todo lo que etsa en el body */
+
+body {
+    /* Esto significa viewport height (altura del dispositivo), 100vh significa el 100% que debe de ocupar la altura visible de la pagina. */
+    height: 100vh;
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: 40px;
+    font-size: 20px;
+    /* Aquí hemos puesto el font-family de 'Afacad Flux' */
+    font-family: 'Afacad Flux';
+}
+
+ul {
+    /* Display flex indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible.(Es decir que lo vuelve flexible) */
+    display: flex;
+    /* Esto indica el espacio que debe tener cada elemento */
+    gap: 60px;
+    /* Esto es para quitar el estilo por defecto que tiene */
+    list-style: none;
+}
+
+header {
+    /* Esto es para poner una imagen de fondo */
+    background-image: url("https://i.pinimg.com/originals/b1/22/59/b12259690a81d10422288d253119811a.jpg");
+    /* Esto es para aliniar el texto */
+    text-align: center;
+    /* Esto es para que no hay espacio en blanco y que la imagen se redimensione para que ocupe todo */
+    background-size: cover;
+    /* Esto es para que ocupe el 90% de altura de su contendor padre */
+    height: 90%;
+    /* Esto es para ponerle un relleno solo arriba del header */
+    padding-top: 150px;
+}
+
+#img-logo-lambo {
+    width: 400px;
+}
+
+header h1{
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 10px;
+    font-family: "Meie Script";
+}
+
+header h2{
+    color: lightgray;
+    font-size: 30px;
+    /* Para poner en mayuscula */
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 10px;
+    /* Para poner relleno solo avajo */
+    padding-bottom: 20px;
+    font-family: "Afacad flux";
+}
+
+header button{
+    padding: 20px;
+    background-color: goldenrod;
+    /* Para quitar el borde */
+    border: 0;
+    /* Para poner un radio de 10px al borde, para que este mas redondo. */
+    border-radius: 10px;
+}

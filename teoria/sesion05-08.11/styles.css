@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 50%;
+    width: 50%;
+    background-image: url(https://th.bing.com/th/id/OIP.0n276m7AKJL4Q9RJ-wI5ygHaFj?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 0 #000;
+    background-position: left;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.oscuro {
+    height: 100%;
+    width: 100%;
+    background-color: #0009;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.c1 {
+    background-color: blue;
+    height: 100px;
+    width: 80%;
+}
+
+.c2 {
+    background-color: red;
+    height: 100px;
+    width: 80%;
+}
+
+.c2, .c1 {
+    border: 5px solid #000;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    box-shadow: 0 0 10px 0 #000;
+    font-size: 1.6em;
+    color: #fafafa;
+    z-index: 2;
+    position: relative;
+}
+
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0%;
+    padding: 0 auto;
+    z-index: 10;
+    position: relative;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.sector-boton {
+    display: flex;
+}
+
+.boton {
+    text-decoration: none;
+    color: #000;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    background-color: #ffff00;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px 0 #000;
+    text-align: center;
+    transition: 1s;
+    transition-property: font-size;
+    position: relative;
+    z-index: 10;
+}
+
+.boton:hover {
+    font-size: 20px;
+}

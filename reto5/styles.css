@@ -1,0 +1,186 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fafaFa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} 
+
+/* Menu de navegación */
+
+header {
+  background-color: #333;
+  padding: 1.8em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #007BFF;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #007bff;
+  padding: 10px;
+}
+
+p {
+  line-height: 1.75em
+}
+
+section ul {
+  line-height: 2;
+  font-size: 1.1em;
+  text-align:left;
+  padding-left: 30px;
+}
+
+
+#inicio p {
+  line-height: 1.75em;
+  padding-bottom: 15px;
+}
+
+#sobre-mi p{
+  line-height: 1.75em;
+}
+
+section {
+  margin: 25px auto;
+  padding: 50px 20px;
+  padding-bottom: 80px;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+#inicio {
+  margin-top: 0;
+  text-align: center;
+}
+
+#primer-parrafo{
+  text-align:left;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+#sobre-mi {
+  background-color: #F0F0F0;
+  padding-top: 55px;
+  padding-bottom: 50px;
+}
+
+#sobre-mi ul {
+  line-height: 2.6em;
+  font-size: 1.09em;
+  padding-left: 30px;
+}
+
+#servicios {
+  margin-top: 0;
+  text-align: center;
+}
+
+#servicios p{
+  text-align:left;
+}
+
+
+#servicios ul{
+  line-height: 2;
+  font-size: 1.1em;
+  text-align:left;
+}
+
+#servicios li{
+  margin-top: 10px;
+}
+
+#proyectos {
+  background-color: #F0F0F0;
+  text-align:center;
+}
+
+#proyectos ul {
+  line-height: 2;
+  font-size: 1.1em;
+  text-align:left;
+  padding-left: 30px;
+}
+
+#proyectos li {
+  margin-top: 10px;
+}
+
+#proyectos p {
+  text-align:left;
+}
+
+#contacto li {
+  color: blue;
+  text-decoration: underline;
+  line-height: 2.5;
+}
+
+#contacto li::marker {
+  color: #000;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info {
+  font-size: 0.9em;
+}
+
+.footer-icons {
+  font-size: 1.5em;
+}
+
+.footer-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #007BFF;
+}

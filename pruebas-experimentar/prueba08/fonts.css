@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "javier";
+    src: url("fonts/Montserrat-ExtraLight.ttf") format("truetype");
+    width: 100;
+}
+
+@font-face {
+    font-family: "javier";
+    src: url("fonts/Montserrat-Medium.ttf") format("truetype");
+    width: 400;
+}

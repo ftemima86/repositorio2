@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.8em;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    color: aliceblue;
+}
+
+nav {
+    text-align: center;
+}
+
+
+.list-nav {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 8px 15px;
+    font-size: 19px;
+}
+
+.list-nav:hover {
+    background-color: #2484f1;
+    border-radius: 7px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #2484f1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+section {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.oscuro {
+    background-color: #eee;
+}
+
+footer {
+    background-color: #333;
+    color: aliceblue;
+    padding: 40px 0;
+}
+
+.contenido-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer div {
+    font-size: 14px;
+}
+
+footer a{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+footer a:hover{
+    color: #2484f1;
+}

@@ -1,0 +1,21 @@
+
+
+.container {
+    background-color: khaki;
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 500px;
+}
+
+.box {
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    width: 150px;
+}

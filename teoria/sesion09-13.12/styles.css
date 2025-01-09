@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+
+  .element {
+    padding: 0px;
+    margin: 50px;
+    border-radius: 20px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+
+  main img {
+    width: 100px;
+  }
+  .avatar img {
+    width: 80px;
+    border: white solid 2px;
+    border-radius: 100%;
+  }
+
+
+  #sectionVideos {
+    display: flex;
+    background-color: beige;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  #sectionVideos .elementos {
+    background-color: orange;
+    padding: 20px;
+    height: fit-content;
+  }

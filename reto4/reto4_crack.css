@@ -1,0 +1,37 @@
+body {
+    margin: 0 3%;
+}
+
+h1 {
+    color: green;
+    font-family: "Bookman Old Style";
+    font-size: 23px;
+}
+h2 {
+    font-family: "Bookman Old Style"; 
+    font-size: 17px;
+}
+
+a {
+    color: rgb(18, 117, 216);
+    font-weight: bold;
+}
+
+p, li {
+    font-family: arial;
+}
+
+li {
+    font-style: italic;
+    font-size: 10px;
+    margin-left: 65px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+}
+
+#especies, #nomes, #bed {
+    font-style: italic;
+}
