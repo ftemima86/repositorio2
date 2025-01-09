@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sección {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece4d9;
+    height: 100vh;
+    gap: 40px;
+}
+
+.div1 {
+    width: 20%;
+}
+
+.div2 {
+    width: 25%;
+    position: relative;
+    bottom: 60px;
+}
+
+.div2 ul {
+    margin-top: 30px;
+}
+
+.div2, li {
+    margin-bottom: 30px;
+} 
+
+img {
+    width: 100%;
+}
+
+.p1 {
+    font-family: "Libre Baskerville";
+    font-size: .8em;
+    font-weight: bold;
+}

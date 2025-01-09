@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-hormigon-negro-grunge_53876-124541.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    padding-top: 1px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.especial {
+    color: #f4a616;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.div1, .div2 {
+    width: 30%;
+}
+
+.div1 {
+    margin-right: 30px;
+}
+
+.div2 {
+    background-color: #e29c1b;
+    border-radius: 10px;
+    padding: 30px 20px;
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+
+.div2 li {
+    padding-bottom: 10px;
+} 
+
+span {
+    color: #e29c1b;
+}
+
+button {
+    color: aliceblue;
+    background-color: #e29c1b;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}

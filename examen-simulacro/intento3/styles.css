@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(https://st2.depositphotos.com/27344914/47192/v/450/depositphotos_471920158-stock-illustration-dark-background-texture-abstract-geometric.jpg);
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    padding: 5px 0;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 5px 20px;
+}
+
+.especial {
+    color: #f3a41a;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 20px;
+}
+
+.div1, .div2 {
+    width: 36%;
+}
+
+span {
+    color: #f3a41a;
+}
+
+button {
+    color: aliceblue;
+    background-color: #f3a41a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.div2 {
+    background-color: #f3a41a;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.div2 li {
+    margin-bottom: 10px;
+}

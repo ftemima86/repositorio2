@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url(https://st3.depositphotos.com/4278641/18473/i/450/depositphotos_184735426-stock-photo-background-black-satin-fabric.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: #333;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.especial {
+    color: #e49a1a;
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+}
+
+.header-div {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1, .div2 {
+    width: 36%;
+}
+
+span {
+    color: #e49a1a;
+}
+
+.div2 {
+    background-color: #e49a1a;
+    padding: 20px 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+}
+
+.div2-list {
+    padding-bottom: 10px;
+    font-size: .9em;
+    position: relative;
+    left: 15px;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+button {
+    border: none;
+    color: aliceblue;
+    background-color: #e49a1a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+}

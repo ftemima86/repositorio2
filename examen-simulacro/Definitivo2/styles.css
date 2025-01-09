@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/black-background-geometric-gradient-design_677411-2885.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: #333;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.especial {
+    color: orange;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    right: 15px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 10px;
+}
+
+.div1, .div2 {
+    width: 35%;
+}
+
+.div2 {
+    background-color: orange;
+    padding: 20px;
+    padding-right: 70px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 35px;
+}
+
+button {
+    border: none;
+    background-color: orange;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.div2-list {
+    margin-bottom: 10px;
+    position: relative;
+    left: 20px;
+}
+
+span {
+    color: orange;
+}
+
+h1 {
+    font-size: 2.3em;
+}
