@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header__nav {
+    background-color: #023;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
