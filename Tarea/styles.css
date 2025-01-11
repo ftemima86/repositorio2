@@ -2,18 +2,68 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color:#023;
+    color: #fff;
 }
 
+.pagina {
+    max-width: 1460px;
+    margin: auto;
+}
+
+/* -------- HEADER SECTION --------- */
+
 .header__nav {
-    background-color: #023;
+    height: 140px;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__ul{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
     margin-right: 20px;
+    font-weight: bold;
+    color: #fff6;
+    font-size: .9em;
+}
+
+.header__item {
+    padding: 15px 10px;
+    transition: .2s;
+    transition-property: background-color, color;
+}
+
+.header__item:hover {
+    background-color: #f23;
+    color: #fff ;
+    transition: .4s;
+}
+
+img[alt="logo"] {
+    width: 250px;
+    margin-left: 50px;
+}
+
+img[alt="imagen1"] {
+    width: 100%;
+}
+
+/* --------- MAIN SECTION --------- */
+
+.section {
+    margin-top: 20px;
+    display: flex;
+}
+
+.cuatro-partes {
+    width: 300px;
+}
+
+img[alt="imagen2"] {
+    width: 700px;
+    object-fit: cover;
 }
