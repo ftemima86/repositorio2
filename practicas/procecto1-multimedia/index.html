@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projecte 1 - MULTIMÈDIA.</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="icon" href="logo.svg">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="icon" href="logo.svg" />
+  </head>
+  <body>
     <header class="header">
-        <nav class="header__nav">
-            <ul class="header__ul">
-                <li class="header__item"><a href="" class="header__link" >Home</a></li>
-                <li class="header__item"><a href="" class="header__link" >About Us</a></li>
-                <li class="header__item"><a href="" class="header__link" >Service</a></li>
-                <li class="header__item"><a href="" class="header__link link--iniciar-sesion" >Sign In</a></li>
-            </ul>
-        </nav>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__item"><a href="" class="header__link">Home</a></li>
+          <li class="header__item">
+            <a href="" class="header__link">About Us</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">Service</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link link--iniciar-sesion">Sign In</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="espacio">
-
+      <div class="espacio"></div>
+      <section class="section">
+        <h1 class="section__titulo">Las adicciones</h1>
+        <p class="section__parrafo">
+          Las adiciones son muy malas, mucha gente es consicnete de que las
+          adiciones como tomar droga o estar todo el dia jugando a videojugos es
+          malo para la salud fisica y mentalmente, pero no mucha gente es
+          conciente de que estar todo el dia con el movil tambien es malo para
+          la salud.
+        </p>
+        <p class="section__parrafo parrafo-dos">
+          Este video trata de las adiciones al movil, el objetivo es concienciar
+          de que la adicion al móvil tambien es mala como otras adiciones.
+        </p>
+        <div class="video">
+          <iframe
+            width="1236"
+            height="695"
+            src="https://www.youtube.com/embed/_RFeQxdb1BM"
+            title="VIDEO_001"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
-        <section class="section">
-            <h1 class="section__titulo">Adiciones al movil</h1>
-            <p class="section__parrafo" >Las adiciones son muy malas, mucha gente es consicnete de que las adiciones como tomar droga o estar todo el dia jugando a videojugos es malo para la salud fisica y mentalmente, pero no mucha gente es conciente de que estar todo el dia con el movil tambien es malo para la salud.</p>
-            <p class="section__parrafo parrafo-dos">Este video trata de las adiciones al movil, el objetivo es concienciar de que la adicion al móvil tambien es mala como otras adiciones.</p>
-            <div class="video">
-                <iframe width="1236" height="695" src="https://www.youtube.com/embed/_RFeQxdb1BM" title="VIDEO_001" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </section>
-        <div class="espacio">
+        <video
+          width="1236"
+          height="695"
+          controls
+          src="videoplayback.mp4"
+        ></video>
+        <div class="audio">
+            <audio
+        autoplay
+        muted
+        controls
+        src="videoplayback.mp3"
+        type="audio/mpeg"
+      ></audio>
         </div>
+      </section>
+      <div class="espacio"></div>
     </main>
     <footer>
-        <p>copyright - 2027</p>
+      <p>copyright - 2027</p>
     </footer>
-</body>
+  </body>
 </html>
